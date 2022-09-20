@@ -1,5 +1,11 @@
 .App {
   text-align: center;
-  color: blueviolet;
+  color: rgb(80, 226, 43);
 }
+th{
+  color: blue;
 
+}
+td{
+  color: red;
+}

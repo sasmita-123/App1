@@ -1,11 +1,11 @@
 import React from "react";
-
-function Footer()
+import "./Footer.css";
+function Footer()   //normal function
 {
     return(
-        <div>
+        <div className="footer">
             <h1>Functional Component</h1>
-            <ul>
+            <ul class="ul1">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -13,6 +13,6 @@ function Footer()
                 <li>React</li>
             </ul>
         </div>
-    )
+    );
 }
 export default Footer;
